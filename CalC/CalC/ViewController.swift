@@ -9,17 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var displayText: UILabel!
 
+    var userTyping: Bool = false
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    @IBAction func digitPress(_ sender: UIButton) {
+        print("Press digit: \(sender.currentTitle!)")
+        
+        let digit = sender.currentTitle!
+        
+        if userTyping {
+            displayText.text = displayText.text! + digit
+        } else {
+            displayText.text = digit
+            userTyping = true
+        }
+    }
+    
+    @IBAction func handleOperations(_ sender: UIButton) {
+        
+        let operationSymbol = sender.currentTitle!
+        print("Operation Symbol: \(operationSymbol)")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
