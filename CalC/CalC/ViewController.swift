@@ -35,6 +35,8 @@ class ViewController: UIViewController {
         
         let operationSymbol = sender.currentTitle!
         print("Operation Symbol: \(operationSymbol)")
+        
+      
     }
     
     override func didReceiveMemoryWarning() {
