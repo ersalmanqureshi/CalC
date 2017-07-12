@@ -10,10 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var displayText: UILabel!
+    @IBOutlet weak var calculatorDisplay: UILabel!
 
     var userTyping: Bool = false
  
+    var value: Double {
+        get {
+            return Double(calculatorDisplay.text!)!
+        }
+        set {
+            calculatorDisplay.text = String(describing: newValue)
+        }
+    }
+    
+    private var calculator = Calculator()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -24,24 +35,34 @@ class ViewController: UIViewController {
         let digit = sender.currentTitle!
         
         if userTyping {
-            displayText.text = displayText.text! + digit
+            calculatorDisplay.text = calculatorDisplay.text! + digit
         } else {
-            displayText.text = digit
+            calculatorDisplay.text = digit
             userTyping = true
         }
     }
     
     @IBAction func handleOperations(_ sender: UIButton) {
         
-        let operationSymbol = sender.currentTitle!
-        print("Operation Symbol: \(operationSymbol)")
+        if userTyping {
+            calculator.setOperand(value)
+            userTyping = false
+        }
         
-      
+        if let mathSymbol = sender.currentTitle {
+            print("Operation Symbol: \(mathSymbol)")
+            calculator.performOperation(mathSymbol)
+        }
+        
+        guard let result = calculator.displayResult else {
+            return
+        }
+        
+        value = result
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
