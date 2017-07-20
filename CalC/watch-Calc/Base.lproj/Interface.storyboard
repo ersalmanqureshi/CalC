@@ -27,7 +27,7 @@
                         </group>
                         <group width="1" height="0.16" alignment="left" id="hrR-vI-eYf">
                             <items>
-                                <button width="44" height="30" alignment="left" title="+" id="5CI-AT-mku">
+                                <button width="0.33000000000000002" height="30" alignment="left" title="+" id="5CI-AT-mku">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -35,7 +35,7 @@
                                         <action selector="addOperation" destination="AgC-eL-Hgc" id="OAD-Nx-Et8"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="center" title="-" id="Qlc-eF-sC4">
+                                <button width="0.33000000000000002" height="30" alignment="center" title="-" id="Qlc-eF-sC4">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -43,7 +43,7 @@
                                         <action selector="subtractOperation" destination="AgC-eL-Hgc" id="ag7-0o-tsb"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="right" title="/" id="Mus-vY-g3h">
+                                <button width="0.33000000000000002" height="30" alignment="right" title="/" id="Mus-vY-g3h">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -55,7 +55,7 @@
                         </group>
                         <group width="1" height="0.16" alignment="left" id="CDQ-wA-bkg">
                             <items>
-                                <button width="44" height="30" alignment="left" title="7" id="eBC-Ef-NZa">
+                                <button width="0.33000000000000002" height="30" alignment="left" title="7" id="eBC-Ef-NZa">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -63,7 +63,7 @@
                                         <action selector="sevenTap" destination="AgC-eL-Hgc" id="icI-4m-1EY"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="center" title="8" id="E2U-nk-QKj">
+                                <button width="0.33000000000000002" height="30" alignment="center" title="8" id="E2U-nk-QKj">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -71,7 +71,7 @@
                                         <action selector="eightTap" destination="AgC-eL-Hgc" id="M5H-BO-IQW"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="right" title="9" id="CLf-xi-LF7">
+                                <button width="0.33000000000000002" height="30" alignment="right" title="9" id="CLf-xi-LF7">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -83,7 +83,7 @@
                         </group>
                         <group width="1" height="0.16" alignment="left" id="7dk-JZ-rJV">
                             <items>
-                                <button width="44" height="30" alignment="left" title="4" id="IW3-f2-7fM">
+                                <button width="0.33000000000000002" height="30" alignment="left" title="4" id="IW3-f2-7fM">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -91,7 +91,7 @@
                                         <action selector="fourTap" destination="AgC-eL-Hgc" id="XSe-sx-PDA"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="center" title="5" id="IWi-FU-xyg">
+                                <button width="0.33000000000000002" height="30" alignment="center" title="5" id="IWi-FU-xyg">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -99,7 +99,7 @@
                                         <action selector="fiveTap" destination="AgC-eL-Hgc" id="spJ-ug-18V"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="right" title="6" id="xS0-Gs-cCD">
+                                <button width="0.33000000000000002" height="30" alignment="right" title="6" id="xS0-Gs-cCD">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -111,7 +111,7 @@
                         </group>
                         <group width="1" height="0.16" alignment="left" id="qqy-gt-o20">
                             <items>
-                                <button width="44" height="30" alignment="left" title="1" id="Ufh-2r-5Je">
+                                <button width="0.33000000000000002" height="30" alignment="left" title="1" id="Ufh-2r-5Je">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -119,7 +119,7 @@
                                         <action selector="oneTap" destination="AgC-eL-Hgc" id="hXo-t2-laj"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="center" title="2" id="4X6-yQ-6qW">
+                                <button width="0.33000000000000002" height="30" alignment="center" title="2" id="4X6-yQ-6qW">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -127,7 +127,7 @@
                                         <action selector="twoTap" destination="AgC-eL-Hgc" id="5hO-U3-Ra5"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="right" title="3" id="1sQ-FL-kpB">
+                                <button width="0.33000000000000002" height="30" alignment="right" title="3" id="1sQ-FL-kpB">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -139,7 +139,7 @@
                         </group>
                         <group width="1" height="0.16" alignment="left" id="6iA-hf-kE4">
                             <items>
-                                <button width="44" height="30" alignment="left" title="." id="Plf-jp-n2U">
+                                <button width="0.33000000000000002" height="30" alignment="left" title="." id="Plf-jp-n2U">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -147,7 +147,7 @@
                                         <action selector="decimalOperation" destination="AgC-eL-Hgc" id="zdg-ns-wxt"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="center" title="0" id="wws-hF-LX0">
+                                <button width="0.33000000000000002" height="30" alignment="center" title="0" id="wws-hF-LX0">
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
@@ -155,7 +155,7 @@
                                         <action selector="zeroTap" destination="AgC-eL-Hgc" id="axT-Vg-SES"/>
                                     </connections>
                                 </button>
-                                <button width="44" height="30" alignment="right" title="=" id="FQf-Fa-cUR">
+                                <button width="0.33000000000000002" height="30" alignment="right" title="=" id="FQf-Fa-cUR">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="font" style="UICTFontTextStyleBody"/>
