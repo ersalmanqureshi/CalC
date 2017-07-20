@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="watchOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
     </dependencies>
@@ -14,92 +13,162 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="watch_Calc" customModuleProvider="target">
                     <items>
-                        <group width="1" height="27" alignment="left" id="MqF-kM-FqE"/>
-                        <group alignment="center" verticalAlignment="center" contentMode="scaleAspectFit" layout="vertical" id="upB-Vk-f6P">
+                        <group width="1" height="23" alignment="left" id="GOf-I4-JFh">
                             <items>
-                                <group width="1" height="30" alignment="left" contentMode="scaleAspectFit" spacing="2" id="hrR-vI-eYf">
-                                    <items>
-                                        <button width="44" height="30" alignment="left" title="7" id="5CI-AT-mku">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="center" title="8" id="Qlc-eF-sC4">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="right" title="9" id="Mus-vY-g3h">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                    </items>
-                                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
-                                </group>
-                                <group width="1" height="30" alignment="left" contentMode="scaleAspectFit" id="fjF-gh-eqh">
-                                    <items>
-                                        <button width="44" height="30" alignment="left" title="4" id="1vW-dG-YLm">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="center" title="5" id="Kqq-Y5-gzV">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="right" title="6" id="tGy-4W-Q3j">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                    </items>
-                                </group>
-                                <group width="1" height="30" alignment="left" id="qEe-lt-3Mj">
-                                    <items>
-                                        <button width="44" height="30" alignment="left" title="1" id="s6u-XO-7wq">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="center" title="2" id="LcT-QL-uH0">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="right" title="3" id="LCD-CM-8JT">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                    </items>
-                                </group>
-                                <group width="1" height="30" alignment="left" id="DTT-eK-6hx">
-                                    <items>
-                                        <button width="44" height="30" alignment="left" verticalAlignment="bottom" title="." id="HUw-lC-72n">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="center" title="0" id="CLg-5Q-JJj">
-                                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                        <button width="44" height="30" alignment="right" title="C" id="zdu-xk-grW">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="font" style="UICTFontTextStyleBody"/>
-                                        </button>
-                                    </items>
-                                </group>
+                                <button width="0.33000000000000002" height="1" alignment="left" title="x" id="Sph-Y5-gQy">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="multiplyOperation" destination="AgC-eL-Hgc" id="yK8-Ew-YTR"/>
+                                    </connections>
+                                </button>
+                                <label width="0.66000000000000003" alignment="left" text="0" textAlignment="right" id="G3O-Se-YAP"/>
+                            </items>
+                        </group>
+                        <group width="1" height="0.16" alignment="left" id="hrR-vI-eYf">
+                            <items>
+                                <button width="44" height="30" alignment="left" title="+" id="5CI-AT-mku">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="addOperation" destination="AgC-eL-Hgc" id="OAD-Nx-Et8"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="center" title="-" id="Qlc-eF-sC4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="subtractOperation" destination="AgC-eL-Hgc" id="ag7-0o-tsb"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="right" title="/" id="Mus-vY-g3h">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="divideOperation" destination="AgC-eL-Hgc" id="75b-vp-hQe"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.16" alignment="left" id="CDQ-wA-bkg">
+                            <items>
+                                <button width="44" height="30" alignment="left" title="7" id="eBC-Ef-NZa">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="sevenTap" destination="AgC-eL-Hgc" id="icI-4m-1EY"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="center" title="8" id="E2U-nk-QKj">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="eightTap" destination="AgC-eL-Hgc" id="M5H-BO-IQW"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="right" title="9" id="CLf-xi-LF7">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="nineTap" destination="AgC-eL-Hgc" id="7ar-ys-7Tp"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.16" alignment="left" id="7dk-JZ-rJV">
+                            <items>
+                                <button width="44" height="30" alignment="left" title="4" id="IW3-f2-7fM">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="fourTap" destination="AgC-eL-Hgc" id="XSe-sx-PDA"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="center" title="5" id="IWi-FU-xyg">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="fiveTap" destination="AgC-eL-Hgc" id="spJ-ug-18V"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="right" title="6" id="xS0-Gs-cCD">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="sixTap" destination="AgC-eL-Hgc" id="xm0-4p-tVp"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.16" alignment="left" id="qqy-gt-o20">
+                            <items>
+                                <button width="44" height="30" alignment="left" title="1" id="Ufh-2r-5Je">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="oneTap" destination="AgC-eL-Hgc" id="hXo-t2-laj"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="center" title="2" id="4X6-yQ-6qW">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="twoTap" destination="AgC-eL-Hgc" id="5hO-U3-Ra5"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="right" title="3" id="1sQ-FL-kpB">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="threeTap" destination="AgC-eL-Hgc" id="c6I-mP-iTp"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.16" alignment="left" id="6iA-hf-kE4">
+                            <items>
+                                <button width="44" height="30" alignment="left" title="." id="Plf-jp-n2U">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="decimalOperation" destination="AgC-eL-Hgc" id="zdg-ns-wxt"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="center" title="0" id="wws-hF-LX0">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="zeroTap" destination="AgC-eL-Hgc" id="axT-Vg-SES"/>
+                                    </connections>
+                                </button>
+                                <button width="44" height="30" alignment="right" title="=" id="FQf-Fa-cUR">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
+                                    <connections>
+                                        <action selector="resultTap" destination="AgC-eL-Hgc" id="ivF-q2-Njj"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="346"/>
+            <point key="canvasLocation" x="220" y="339"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
