@@ -166,6 +166,23 @@
                             </items>
                         </group>
                     </items>
+                    <menu key="menu" id="91p-Yt-OhE">
+                        <items>
+                            <menuItem title="Clear" icon="trash" id="GaE-No-pvM">
+                                <connections>
+                                    <action selector="clear" destination="AgC-eL-Hgc" id="NpV-g7-R3U"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Remove" image="Delete" id="pCj-Mt-h0B">
+                                <connections>
+                                    <action selector="remove" destination="AgC-eL-Hgc" id="mhH-mV-0bE"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="displayResult" destination="G3O-Se-YAP" id="I5l-r5-snv"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="220" y="339"/>
